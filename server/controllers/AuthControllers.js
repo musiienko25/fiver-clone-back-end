@@ -46,6 +46,7 @@ export const signUp = async (req, res, next) => {
     throw err;
   }
 };
+//
 
 export const login = async (req, res, next) => {
   try {
