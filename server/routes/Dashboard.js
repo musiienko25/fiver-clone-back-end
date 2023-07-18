@@ -1,7 +1,7 @@
 import { Router } from "express";
 
 import { verifyToken } from "../middlewares/AuthMiddleware.js";
-import { getSellerData } from "../controllers/DashboardController.js";
+import { getSellerData } from "../controllers/Dashboard.js";
 
 export const dashboardRoutes = Router();
 

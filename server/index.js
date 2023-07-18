@@ -3,6 +3,10 @@ import dotenv from "dotenv";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import authRoutes from "./routes/Authroutes.js";
+import { gigRoutes } from "./routes/GigRoutes.js";
+import { orderRoutes } from "./routes/OrderRutes.js";
+import { messageRoutes } from "./routes/MessageRoutes.js";
+import { dashboardRoutes } from "./routes/Dashboard.js";
 
 dotenv.config();
 
